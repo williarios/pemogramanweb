@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> film terbaik sepanjang masa</title>
+        <!--bikin float make cara di dalem-->
+        <style>
+            .float-left{
+                margin: 10px;
+                padding: 0px;
+                float: left;
+            }
+        </style>
+    </head>
+
+       
+    <body>
+        <!--menyambungkan 2 link-->
+        <div>
+            <a href="../index.html">Home</a>
+            <a href="berlangganan.html">Belangganan</a>
+        </div>
+    <h1>Langkah - langkah untuk menonton film Exclusive secara murah dan mudah</h1>
+    
+    <p>pilih paket dan isi biodata untuk mendaftarkan diri anda ke aplikasi untuk menonton film Exclusive secara murah dan mudah</p>
+
+   <!--bikin table tapi make panggil class-->
+    <table class="float-left">
+        
+        <tr>
+            <td>Nama Paket</td>
+        </tr>
+        <tr>
+            <td>Harga Bulanan</td>
+        </tr>
+        <tr>
+            <td>Kualitas Video</td>
+        </tr>
+        <tr>
+            <td>Resolusi Video</td>
+        </tr>
+        
+    </table>
+
+    <table border="1">
+        <caption></caption>
+        <tr>
+            <th>Basic</th>
+            <th>Standar</th>
+            <th>Premium</th>
+        </tr>
+        <tr>
+            <td>120.000</td>
+            <td>155.000</td>
+            <td>185.000</td>
+        </tr>
+        <tr>
+            <td>good</td>
+            <td>better</td>
+            <td>best</td>
+        </tr>
+        <tr>
+            <td>480p</td>
+            <td>1080p</td>
+            <td>4K+HDR</td>
+        </tr>
+        
+
+    </table>
+
+    <p>beberapa Film terbaik yang bisa di tonton dengan mudah di NETFLIX</p>
+
+    <!--bikin list-->
+    <ol>
+        <li>The Godfather</li>
+        <li>The Kingsman</li>
+        <li>Money Heist</li>
+        <li>Peaky Blinders</li>
+        <li>DLL</li>
+    </ol>
+
+    <p>lalu isi data data mu untuk mulai berlangganan di NETFLIX</p>
+
+    <!--membuar form-->
+
+    <form>
+        <fieldset>
+            <legend>Isi biodata</legend>
+        <label>Pilihan Paket</label>
+        <br>
+        <input type="checkbox" name="pilihan_paket" value="0"> Paket Basic <br>
+        <input type="checkbox" name="pilihan_paket" value="1"> Paket Standar <br>
+        <input type="checkbox" name="pilihan_paket" value="2"> Paket Premium
+        <br>
+        <label>Waktu langganan</label>
+        <br>
+        <input type="radio" name="lama_langganan" value="0">berlangganan 1 bulan <br>
+        <input type="radio" name="lama_langganan" value="1">berlangganan 3 bulan <br>
+        <input type="radio" name="lama_langganan" value="2">berlangganan 1 tahun
+        <br>
+        <label>Metode Pembayaran</label>
+        <select>
+            <option value="M-Banking">M-Banking</option>
+            <option value="Internet Banking">Internet Banking</option>
+            <option value="Gopay">Gopay</option>
+            <option value="Dana">Dana</option>
+        </select>
+
+        <br>
+        <input type="submit" value="Kirim data">
+        <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Kritik dan saran</legend>
+        <p>jika anda mengalami masalah dalam pengisian data maupun anda memiliki keluhan terkahit dengan link ini maka bisa isi data dan keluhan anda dibawah ini</p>
+        <label for="Email">Email anda</label>
+        <input type="text" placeholder="Email anda" value="Email anda" id="Email">
+        <br>
+
+        <label for="Saran_kritik">Saran dan kritik anda</label>
+        <textarea cols="100" rows="7" id="Saran_kritik">Keluhan, kritik dan saran anda</textarea> 
+        
+        </fieldset>
+    </form>
+
+    
+
+    
+
+</body>
+
+</html>
