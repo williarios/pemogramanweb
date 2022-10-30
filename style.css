@@ -1,0 +1,75 @@
+h1{
+    color: blue;
+/* cara bikin teks di tengah  (semua yg dikomen ini mesti di dalem yang ingin di ubah / h1)
+text-align : center ;
+text-decoration : bold, underline, dll;
+
+jika ingin teks rapih kanan kiri
+text-align :justify;
+
+jika ingin seperti paragraf di kalimat pertama
+text-indent :30px
+
+jika ingin ada jarak per huruf
+letter-spacing :5px;
+word-spacing :5px;
+line-height :20px;
+
+jika ingin huruf nya di atur
+text-transform :uppercase, lowercase, capitalize;
+uppercase : besar semua
+lowercase : kecil semua
+capitalize : huruf pertama besar (kapital)
+
+*/
+}
+
+
+
+body {
+    /* (cara lengkap buat background)
+    background-color: whitesmoke;
+    background-image: url("image/peakyblinders.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    */
+
+    background : whitesmoke url("image/peakyblinders.jpg") no-repeat fixed;
+}
+
+#menu_margin {
+    /*margin : top,right,bottom,left*/
+    margin : 20px 0 5px 0
+}
+
+.menu{
+    /*border-width: 3px;
+    border-style: solid;
+    border-color: black;*/
+
+    border: 3px solid black;
+    padding: 10px 5px;
+}
+
+/* warna default */
+.menu:link {
+    background: grey;
+    color: white;
+}
+
+/* warna link saat sudah dikunjungi*/
+.menu:visited {
+    color : red;
+}
+
+/* warna saat link di klik*/
+.menu:active {
+    background : blue;
+}
+
+/* warna saat kursor di atas link*/
+.menu:hover {
+    color : yellow;
+}
+
